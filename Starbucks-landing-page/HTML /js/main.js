@@ -8,7 +8,7 @@ const btn = document.getElementById('menu-btn')
 const nav = document.getElementById('menu')
 
 
-// Controls the side Navigation Menu
+// Controls the side Mobile Navigation Menu
 
 function navToggle() {
 btn.classList.toggle('open')
