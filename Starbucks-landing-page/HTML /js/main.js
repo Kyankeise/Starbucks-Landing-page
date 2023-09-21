@@ -1,19 +1,14 @@
 // Author: Kyan Keise
 // Date: 06/05/22
-// Title: Starbucks landing page
+// Title: Starbucks Landing page
 
-
-// Declare Vaiables 
-const btn = document.getElementById('menu-btn')
-const nav = document.getElementById('menu')
-
-
-// Controls the side Mobile Navigation Menu
+const btn = document.getElementById("menu-btn");
+const nav = document.getElementById("menu");
 
 function navToggle() {
-btn.classList.toggle('open')
-nav.classList.toggle('hidden')
-document.body.classList.toggle('no-scroll')
+  btn.classList.toggle("open");
+  nav.classList.toggle("hidden");
+  document.body.classList.toggle("no-scroll");
 }
 
-btn.addEventListener('click', navToggle)
+btn.addEventListener("click", navToggle);
